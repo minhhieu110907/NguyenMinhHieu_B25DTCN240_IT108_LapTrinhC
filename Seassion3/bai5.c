@@ -15,8 +15,9 @@ int main() {
     printf("| %-3d | %-13s | %-4d | %-13s | %-22s |\n", 7, "Nguyen Van G", 23, "0904488487", "gnv@rikkeiacademy.com");
     printf("| %-3d | %-13s | %-4d | %-13s | %-22s |\n", 8, "Nguyen Van H", 19, "0904488488", "hnv@rikkeiacademy.com");
     printf("| %-3d | %-13s | %-4d | %-13s | %-22s |\n", 9, "Nguyen Van I", 18, "0904488489", "inv@rikkeiacademy.com");
-    printf("| %-3d | %-13s | %-4d | %-13s | %-22s |\n", 10, "Nguyen Van K", 21, "0904488480", "knv@rikkeiacademy.com");
+    printf("| %-3d | %-13s | %-4d | %-13s | %-22s |\n", 10, "Nguyen Van K", 21,"0904488480", "knv@rikkeiacademy.com");
     printf("===============================================================\n");
     
     return 0;
 }
+
