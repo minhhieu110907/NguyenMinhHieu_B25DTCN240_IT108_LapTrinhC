@@ -1,20 +1,33 @@
-#include<stdio.h>
-int main(){
-	int b =0,c=0;
-	int a[b][c];
-		printf("Moi ban nhap vao so hang va so cot: ");
-		scanf("%d %d",&b,&c);
-		
-		for (int i =0; i< b && i <c;i++){
-		printf("Moi ban nhap vao hang %d va cot %d: ",i,i);
-		scanf("%d %d",&a[i][i]);
-	    }
-	    
-		
-		
-	
+#include <stdio.h>
 
+int main() {
+    int rows, cols;
+    
+    printf("Nhap so hang: ");
+    scanf("%d", &rows);
 
-return 0;
+    printf("Nhap so cot: ");
+    scanf("%d", &cols);
+
+    int matrix[rows][cols];
+
+    printf("\n--- Nhap cac phan tu cho ma tran ---\n");
+    
+    
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            printf("Nhap phan tu matrix[%d][%d]: ", i, j);
+            scanf("%d", &matrix[i][j]);
+        }
+    }
+
+    printf("\n--- Ma tran ban vua nhap ---\n");
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            printf("%d\t", matrix[i][j]);
+        }
+        printf("\n");
+    }
+
+    return 0;
 }
-
