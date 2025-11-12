@@ -14,8 +14,8 @@ int main(){
    
    int len = strlen(str);
    for ( int i =0;i<len;i++){
-   	  unsigned char charactercurrent = str[i];
-   	  fre[charactercurrent]++;
+   	  unsigned char character = str[i];
+   	  fre[character]++;
    }
    for ( int i = 0;i<len;i++){
    	unsigned char character = str[i];
@@ -28,4 +28,5 @@ int main(){
 
 return 0;
 }
+
 
